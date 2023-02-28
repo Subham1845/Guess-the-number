@@ -108,9 +108,9 @@ h1 {
 }
 
 .resetHighscore {
-  position: absolute;
-  top: 48rem;
-  right: 33rem;
+  position: relative;
+  top: -3.5rem;
+  right: -18rem;
   border: none;
   border-style: ridge;
   border-radius: 20px;
