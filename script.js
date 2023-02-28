@@ -1,7 +1,7 @@
 'use strict';
 
 let randomNumber = Math.trunc(Math.random() * 20) + 1;
-console.log(randomNumber);
+// console.log(randomNumber);
 let score = 20;
 let highScore = 0;
 
@@ -13,11 +13,11 @@ const displayMessage = function (message) {
 
 document.querySelector('.check').addEventListener('click', function () {
   const guess = Number(document.querySelector('.guess').value);
-  console.log(guess);
+  // console.log(guess);
 
   //NO INPUT
   if (!guess) {
-    console.log('Enter a number');
+    displayMessage('⛔️ No number!');
   }
   // WRONG INPUT
   else if (guess !== randomNumber) {
